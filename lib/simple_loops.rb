@@ -13,4 +13,19 @@ def loop_message_n_times(string, n)
   end
 end
 
-loop_message_n_times("I'm hungry", 4)
+#loop_message_n_times("I'm hungry", 4)
+
+def output_array(array)
+  i = 0
+  while array[i] do
+    put array[i]
+    i += 1
+  end
+end
+
+def return_string_array(array)
+  new_array = Array.new
+  i = 0
+  while array[i] do
+    new_array.push
+  
